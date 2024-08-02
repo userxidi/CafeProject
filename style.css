@@ -1,0 +1,871 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ max-width: 1926px;
+}
+nav {
+  max-width: 1926px;
+  height:111px ;
+background-color:#F7E5D2;
+display: flex;
+
+justify-content: space-between;
+flex-wrap: wrap;
+padding: 50px;
+}
+
+
+.cafe47 {
+  display: flex;
+}
+.cafe47 a {
+border: none;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 37px;  
+}
+.navbutton a {
+  text-decoration: none;
+  color: black;
+}
+.fa-chevron-left {
+  position: absolute;
+  left: 15px;
+}
+.fa-chevron-right {
+  position: absolute;
+  right: 15px;
+}
+.inptext button {
+  padding: 11px 30px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  position: absolute;
+  bottom: 120px;
+}
+.container-fluid button {
+  display: none;
+}
+.cafetext a {
+  color: white;
+  text-decoration: none;
+}
+.cafetext {
+  position: absolute;
+  top: 46%; 
+  left: 420px; 
+  transform: translate(-50%, -50%); 
+  background-color: transparent; 
+  color: white;
+
+  text-align: left;
+}
+.cafetext  p{
+  font-size: 25px;
+  padding-bottom: 25px;
+
+}
+.cafetext button {
+ padding: 15px 25px;
+ font-size: 15px;
+ color: white;
+ border-color: white;
+ background-color: transparent;
+}
+.cafetext button:hover {
+  background-color: #404D3C;
+}
+
+.cafetext h2 {
+  width: 750px; 
+  font-size: 70px; 
+  padding-bottom: 35px;
+}
+.cafeposit {
+  position: relative;
+  bottom: 25px;
+  right: 10px;
+}
+.maincoffe{
+  max-width: 1900px;
+  width: 100%;
+  height: 695px;
+  filter: brightness(72%);
+  object-fit: cover;
+
+}
+
+.ending {
+  display: flex;
+  background-color: #60695D;
+justify-content: center;
+height:68px;
+position: relative;
+bottom: 20px;
+color: white;
+}
+.ending h2 , span {
+padding: 15px;
+
+
+}
+.ourmenu {
+  margin-left: 36px;
+}
+.eattext {
+  height: 695px;
+}
+.twodivs {
+display: flex;
+}
+.container img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  
+}
+.container {
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  position: relative;
+  bottom: 20px;
+
+  
+}
+
+.container .item{
+  max-width: 953px;
+  height: 590px;
+
+}
+.container .item-first{
+  max-width: 953px;
+  height: 590px;
+  margin: 0 auto;
+  padding-top: 25%;
+
+}
+.container .item-egg {
+  background-image: url(./imgs-videos/1img.webp) ;
+  background-repeat: no-repeat;
+
+}
+.container .item-coffe {
+  background-image: url(./imgs-videos/2img.webp) ;
+  background-repeat: no-repeat;
+
+}
+.container .item-outdoor {
+  background-image: url(./imgs-videos/3img.webp) ;
+  background-repeat: no-repeat;
+
+}
+
+.textos {
+  justify-content: center;
+  text-align: left;
+    margin-inline: 52px;
+   max-width: 400px;
+   height:  590px;
+
+
+}
+
+.navbar button {
+  border: none;
+  
+}
+/* .container-fluid {
+width: 20px;
+} */
+.navbar button span {
+  font-size: 33px;
+}
+
+.item-first button {
+  padding:15px;
+  background-color: transparent;
+  border: 1px solid black;
+  position: relative;
+  top: 30px;
+  width: 150px;
+  height: 50px;
+  
+}
+
+  .textos2 button {
+    padding:15px;
+    background-color: transparent;
+    border: 1px solid black;
+    position: relative;
+    top: 30px;
+    width: 150px;
+    height: 50px;
+  }
+  .textos2 p {
+    text-align: left;
+  }
+
+  .textos2 {
+    display: flex;
+    flex-direction: column;
+  position: relative;
+  top: 100px;
+    justify-content: center;
+    margin-inline: 52px;
+    
+  }
+  .textos2 h1 {
+    font-size: 70px;
+    text-align: left;
+  }
+  .textos2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: left; 
+    max-width: 430px;
+  }
+
+
+.textos3 {
+  display: flex;
+  flex-direction: column;
+position: relative;
+top: 100px;
+  justify-content: center;
+  margin-inline: 82px;
+  left: 90px;
+  
+
+}
+.textos3 button {
+  padding:15px;
+  background-color: transparent;
+  border: 1px solid black;
+  position: relative;
+  top: 30px;
+  width: 150px;
+  height: 50px;
+}
+.textos3 p {
+  max-width: 375px;
+}
+.textos3 h1 {
+ 
+  padding-bottom: 50px;
+  font-size: 80px;
+  
+}
+.textoseat button, a {
+  color: black;
+text-decoration: none;
+}
+
+.textos3 p {
+  padding-top: 20px;
+  font-size: 20px;
+}
+.section2 button:hover {
+  background-color: #404D3C;
+  text-align: center;
+}
+.section2 {
+  max-width: 1900px;
+  position: relative;
+  bottom: 20px;
+  
+}
+.section2 a {text-decoration: none;
+  color: black;
+}
+
+.textpic  {
+ display: flex ;
+}
+.textpic2  {
+ display: flex ;
+}
+.textpic3  {
+ display: flex ;
+}
+.textpic img {
+  width: 100%;
+  height:100%;
+}
+.textpic2 img {
+  width: 100%;
+  height:100%;
+}
+.textpic3 img {
+  width: 100%;
+  height:100%;
+}
+.left .textoseat{
+
+position: relative;
+top: 50%;
+left: 50%;
+padding: 1rem;
+text-align: left;
+transform: translate(-50%, -50%);
+width: 400px;
+}
+.textoseat button {
+  padding:15px;
+  background-color: transparent;
+  border: 1px solid black;
+  position: relative;
+  top: 30px;
+  width: 150px;
+  height: 50px;
+}
+.textpic .left {
+  float: left;
+  width: 50%; 
+
+}
+.textpic .right {
+  float: left;
+  width: 50%;
+  object-fit: cover;
+}
+.left .textoseat{
+
+position: relative;
+top: 50%;
+left: 50%;
+padding: 1rem;
+text-align: left;
+transform: translate(-50%, -50%);
+width: 400px;
+}
+.textoseat button {
+  padding:15px;
+  background-color: transparent;
+  border: 1px solid black;
+  position: relative;
+  top: 30px;
+  width: 150px;
+  height: 50px;
+}
+.textpic .left {
+  float: left;
+  width: 50%; 
+
+}
+.textpic .right {
+  float: left;
+  width: 50%;
+  object-fit: cover;
+}
+/*  */
+.right .textodrink{
+
+  position: relative;
+  top: 50%;
+  left: 50%;
+  padding: 1rem;
+  text-align: left;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  }
+  .textodrink button {
+    padding:15px;
+    background-color: transparent;
+    border: 1px solid black;
+    position: relative;
+    top: 30px;
+    width: 150px;
+    height: 50px;
+  }
+  .textpic2 .right {
+    float: left;
+    width: 50%; 
+  
+  }
+  .textpic2 .left {
+    float: left;
+    width: 50%;
+    object-fit: cover;
+  }
+.left .textoenjoy{
+
+  position: relative;
+  top: 46%;
+  left: 50%;
+  padding: 1rem;
+  text-align: left;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  }
+  .textoenjoy button {
+    padding:15px;
+    background-color: transparent;
+    border: 1px solid black;
+    position: relative;
+    top: 30px;
+    width: 150px;
+    height: 50px;
+  }
+  .textpic3 .left {
+    float: left;
+    width: 50%; 
+  
+  }
+  .textpic3 .right {
+    float: left;
+    width: 50%;
+    object-fit: cover;
+  }
+  
+
+.section3 {
+  max-width: 1900px;
+  height: 447px;
+  background-color: #FBF2E8;
+  position: relative;
+  bottom: 20px;
+}
+.dropfor {
+  display: flex;
+ flex-direction: column;
+text-align: center;
+}
+.leftright {
+  display: flex;
+ justify-content: center;
+}
+.text h1 {
+  padding-top: 70px;
+  font-size: 65px;
+  padding-bottom: 70px;
+}
+.dropfor hr {
+  margin-inline:100px;
+ 
+  color: black;
+}
+.leftright .hours {
+font-size: 25px;
+padding-bottom: 20px;
+}
+.leftright .sched {
+  font-size: 16px;
+  padding-top: 10px;
+
+  }
+.sectionimg {
+  display: flex;
+  max-width: 1900px;
+  position: relative;
+  bottom: 20px;
+ 
+
+}
+.sectionimg img {
+  width: 20%;
+  height:auto;
+object-fit: cover;
+}
+  
+.ending1 {
+  height: 400px;
+  background-color: #404D3C;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  position: relative;
+  bottom: 16px;
+  padding-top: 50px;
+}
+
+.endofend {
+height: 50px;
+background-color: #FBF2E8;
+max-width: 1900px;
+position: relative;
+bottom: 20px;
+text-align: center;
+}
+.ending1 a {
+  text-decoration: none;
+  color: white;
+
+}
+
+
+.endofend {
+  padding-top: 12px;
+}
+
+.ending1 .first {
+  width: 250px;
+  height: 300px;
+}
+.ending1 .second {
+  width: 250px;
+  height: 300px;
+}
+.second p {
+  width: 180px;
+ 
+}
+.ending1 .news , .talk {
+  font-size: 25px;
+}
+.third {
+width: 250px;
+height: 300PX;
+}
+.third .pads{
+padding-top: 10px;
+padding-bottom: 10px;}
+.first .news {
+padding-bottom: 31px;
+}
+.first .joinbtn {
+display: flex;
+align-items: center;
+padding-top: 20px;
+
+}
+.joinbtn button {
+height:40px;
+
+background-color: #404D3C;
+color: white;
+border: 1px solid white;
+width: 530px;
+}
+.first input {
+width: 250px;
+background-color: #404D3C;
+height: 40px;
+border: 1px solid white;
+}
+.navbar-toggler-icon {
+  font-size: 25px;
+  color: black;
+}
+
+.ending1 > div {
+  width: 250px;
+  height: 250px;
+}
+
+  .ending1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+  }
+ .ending1 .first {
+  margin: 0 auto;
+ }
+ .ending1 .second {
+  margin: 0 auto;
+ }
+ .ending1 .third {
+  margin: 0 auto;
+ }
+.homepos {
+  position: relative;
+  bottom: 6px;
+}
+
+.container img{
+ width: 100%;
+ height: 1002px;
+}
+ .bg-primary {
+  background-color: #F7E5D2 !important;
+ }
+ul button {
+  border: none;
+  background-color: transparent;
+  color: red;
+}
+ul a {
+  text-decoration: none;
+  color: black;
+}
+nav .hidden {
+  display: none;
+}
+/* hiddden       and shooww upp */
+.containerski {
+  display: grid;
+  grid-template-columns: auto ;
+
+
+}
+.containerski > div 
+.containerski  p{
+  font-size: 15px;
+  max-width: 550px;
+}
+.containerski  h1{
+  font-size: 55px;
+  
+}
+.containerski img {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+}
+.containerski button {
+  padding:15px;
+  background-color: transparent;
+  border: 1px solid black;
+  position: relative;
+  bottom: 5px;
+  width: 150px;
+  height: 50px;
+}
+.containerski a {text-decoration: none;
+color: black;}
+
+.section2replace {
+  display: none;
+}
+
+/*  */
+
+  
+.ending2 {
+  height: auto;
+  background-color: #404D3C;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  position: relative;
+  bottom: 16px;
+  padding-top: 50px;
+}
+
+.endofend {
+height: 50px;
+background-color: #FBF2E8;
+max-width: 1900px;
+position: relative;
+bottom: 20px;
+text-align: center;
+}
+.ending2 a {
+  text-decoration: none;
+  color: white;
+
+}
+
+
+.endofend {
+  padding-top: 12px;
+}
+
+.ending2 .first {
+  width: 250px;
+  height: 300px;
+}
+.ending2 .second {
+  width: 250px;
+  height: 300px;
+}
+.second p {
+  width: 180px;
+ 
+}
+.ending2 .news , .talk {
+  font-size: 25px;
+}
+.third {
+width: 250px;
+height: 300PX;
+}
+.third .pads{
+padding-top: 10px;
+padding-bottom: 10px;}
+.first .news {
+padding-bottom: 31px;
+}
+.first .joinbtn {
+display: flex;
+align-items: center;
+padding-top: 20px;
+
+}
+.joinbtn button {
+height:40px;
+
+background-color: #404D3C;
+color: white;
+border: 1px solid white;
+width: 530px;
+}
+.first input {
+width: 250px;
+background-color: #404D3C;
+height: 40px;
+border: 1px solid white;
+}
+
+button.navbar-toggler {
+  display: none;
+  position: relative;
+
+}
+
+/*  */
+
+/* hiddden       and shooww upp */
+@media screen and (max-width:1001px) {
+
+
+.section .omenu {
+  overflow: hidden;
+}
+
+
+  .ending2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+  }
+ .ending2 .first {
+  margin: 0 auto;
+ }
+ .ending2 .second {
+  margin: 0 auto;
+ }
+ .ending2 .third {
+  margin: 0 auto;
+ }
+
+}
+
+
+
+@media screen and (max-width:908px) {
+  .section2 {display:none ;}
+
+
+.section2replace {
+  display: block;
+}
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width:897px) {
+ nav .hidden {
+    display: block;
+  }
+ul .diss {
+  display: none;
+}
+.diss li {
+  display: none;
+}
+.container-fluid button {
+  display: block;
+}
+.section2 {
+  height: auto;
+}
+}
+.navbar-toggler-icon {
+  display: block;
+ }
+
+@media screen and (max-width:820px)  {
+  .cafetext {
+    width: 300px;
+  position: absolute;
+    top: 46%; 
+    left: 220px; 
+  }
+  .cafetext h2 {
+    width:550px;
+    font-size: 55px;
+  }
+
+  .fa-chevron {
+    display: none;
+  }
+}
+@media screen and (max-width:715px) {
+  .cafetext h2 {
+    width:450px;
+    font-size: 45px;
+  }
+ .ending h2{
+font-size: 20px;
+ }
+
+} 
+
+@media screen and (max-width:600px) {
+  .section3 h1 {
+    font-size: 35px;
+  }
+  .section3 {
+    height: auto;
+  }
+  .dropfor .leftright {
+       display: flex;
+    flex-direction: column;
+  }
+  .cafetext h2 {
+    width:350px;
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width:570px) {
+
+  .center h1 {
+    font-size: 38px;
+   }
+   .center p {
+  
+    font-size: 15px;
+   }
+
+   .cafetext h2 {
+    width:200px;
+    font-size: 20px;
+  }
+
+  .ourmenu {
+    margin-left: 0px;
+    
+  }
+  .ending .hidd 
+  { display: none;}
+
+  .ending h2{
+    font-size: 15px;
+     }
+
+
+}
+
+@media screen and (max-width:351px) {
+  
+  .cafetext {
+    width: 300px;
+  position: absolute;
+    top: 46%; 
+    left: 180px; 
+  }
+
+}

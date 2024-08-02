@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+  }
+
+  nav {
+    position: relative;
+    bottom: 20px;
+    max-width: 1900px;
+    height:119px ;
+  background-color:#F7E5D2;
+  display: flex;
+  
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+  }
+  ul.diss {
+    padding:0px !important;
+  }
+  .cafe47 {
+    display: flex;
+  }
+  .cafeposit {object-fit: cover;
+    position: absolute;
+    top: 32px;
+    left: 30px;
+  }
+  .cafe47 a {
+  border: none;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 37px; 
+    padding: 50px;
+  }
+  .navbutton a {
+    text-decoration: none;
+    color: black;
+  }
+
+.center  {
+    position: relative;
+    justify-content: center;
+    max-width: 1900px;
+    text-align: center;
+
+    height: 360px;
+    position:relative;
+    margin-top: 120px;
+}
+.omenu {
+  height: auto;
+    position: relative;
+    bottom: 20px;
+}
+  .center h1 {
+    padding-top:82px;
+    padding-bottom:22px;
+    font-size: 65px;
+  }
+  .inptext button {
+    padding: 11px 30px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 135px;
+  }
+  .omenu {background-color: #FBF2E8;
+  }
+.omenu p {
+
+font-size: 20px;
+}
+  .everydamnday {
+    text-align: center;
+    justify-content: center;
+    height: 220px;  
+    font-size: 30px;
+    padding-top: 70px;
+     color: #000000;
+  }
+
+.hidden {
+  display: none;
+}
+
+  /* footere */
+
+
+  
+  .ending1 {
+    height: auto;
+    background-color: #404D3C;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    position: relative;
+    bottom: 16px;
+    padding-top: 50px;
+  }
+ 
+  .endofend {
+  height: 50px;
+  background-color: #FBF2E8;
+  max-width: 1900px;
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  }
+  .ending1 a {
+    text-decoration: none;
+    color: white;
+  
+  }
+  .navbar-toggler-icon {
+    font-size: 25px;
+    color: black;
+  }
+.diss a {
+   text-decoration: none;
+   color: black;
+
+
+}  
+
+  .endofend {
+    padding-top: 12px;
+  }
+
+  .ending1 .first {
+    width: 250px;
+    height: 300px;
+  }
+  .ending1 .second {
+    width: 250px;
+    height: 300px;
+  }
+  .second p {
+    width: 180px;
+   
+  }
+  .ending1 .news , .talk {
+    font-size: 25px;
+  }
+.third {
+  width: 250px;
+  height: 300PX;
+}
+.homepos {
+  position: relative;
+  bottom: 6px;
+}
+.third .pads{
+padding-top: 10px;
+padding-bottom: 10px;}
+.first .news {
+  padding-bottom: 31px;
+}
+.first .joinbtn {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  
+}
+.joinbtn button {
+height:40px;
+
+background-color: #404D3C;
+color: white;
+border: 1px solid white;
+width: 530px;
+}
+.first input {
+  width: 250px;
+  background-color: #404D3C;
+  height: 40px;
+  border: 1px solid white;
+}
+
+.container-fluid button {
+  display: none;
+}
+
+
+@media screen and (max-width:1001px) {
+  .everydamnday {
+    height:200px ;
+    display: flex;
+  overflow: hidden;
+
+  }
+  .secti {
+    object-position: center;
+  }
+
+.section .omenu {
+  overflow: hidden;
+}
+
+
+  .ending1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+  }
+ .ending1 .first {
+  margin: 0 auto;
+ }
+ .ending1 .second {
+  margin: 0 auto;
+ }
+ .ending1 .third {
+  margin: 0 auto;
+ }
+
+}
+@media screen and (max-width:842px) {
+  ul .diss {
+    display: none;
+  }
+  .diss li {
+    display: none;
+  }
+  .container-fluid button {
+    display: block;
+  }
+}
+
+
+
+@media screen and (max-width:570px) {
+ 
+  .center h1 {
+    font-size: 38px;
+   }
+   .center p {
+  
+    font-size: 15px;
+   }
+
+
+
+ 
+
+
+
+}

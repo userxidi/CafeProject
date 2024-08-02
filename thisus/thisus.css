@@ -1,0 +1,474 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+nav {
+  position: relative;
+  bottom: 20px;
+  max-width: 1900px;
+  height:119px ;
+background-color:#F7E5D2;
+display: flex;
+
+justify-content: space-between;
+flex-wrap: wrap;
+
+}
+.cafe47 {
+  display: flex;
+}
+.cafeposit {
+  position: relative;
+ top: 20px;
+  left: 15px;
+}
+.cafe47 a {
+border: none;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 37px; 
+  padding: 50px;
+}
+.navbutton a {
+  text-decoration: none;
+  color: black;
+}
+
+.center  {
+  position: relative;
+  justify-content: center;
+  max-width: 1900px;
+  text-align: center;
+
+  height: 460px;
+  position:relative;
+  top: 60px;
+}
+.omenu {
+  position: relative;
+  bottom: 20px;
+}
+.center h1 {
+  padding-top:102px;
+  padding-bottom:22px;
+  font-size: 65px;
+}
+.inptext button {
+  padding: 11px 30px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  position: absolute;
+  bottom: 135px;
+}
+.omenu {background-color: #FBF2E8;
+}
+.omenu p {
+
+font-size: 20px;
+}
+.split {
+  display: flex;
+  position: relative;
+  bottom: 20px;
+
+  text-align: center;
+
+}
+.split .text {
+    padding-top: 90px;
+    text-align: left;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding-inline:10%;
+
+
+}
+.split .left {
+  flex:1;
+  width:500px;
+  height: 550px;
+   
+}
+.split .rght {
+  flex:1;
+  width:500px;
+  height: 550px;
+   
+}
+.left {
+background-image: url(./thisusimgs/eggs.webp);
+background-repeat: no-repeat;
+object-fit: cover;
+background-position: center;
+
+}
+.rght {
+background-image: url(./thisusimgs/manwomen.webp);
+background-repeat: no-repeat;
+object-fit: cover;
+}
+
+.split .right {
+  flex:1 ;
+
+  height: 550px;
+
+}
+.split .right h1 {
+  font-size: 55px;
+
+}
+.split .right p {
+  font-size: 20px;
+  padding-top: 35px;
+
+}
+.split img {
+  width: 100%;
+ height: 100%;
+
+ object-fit: cover;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footere */
+
+
+.ending1 {
+  height: 420px;
+  background-color: #404D3C;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+  position: relative;
+  bottom: 16px;
+}
+.ending1 .divone {
+text-align: left;
+
+}
+.divone .hori {
+  padding-top: 100px;
+font-size: 30px;
+}
+.divone p {
+  padding-top: 40px;
+  font-size: 17px;
+  width: 280px;
+}
+.endofend {
+height: 50px;
+background-color: #FBF2E8;
+
+max-width: 1900px;
+position: relative;
+bottom: 20px;
+text-align: center;
+}
+
+.endofend {
+  padding-top: 12px;
+}
+
+.ending1  input{
+width: 220px;
+height: 40px;
+background-color: transparent;
+border: 1px solid white;
+margin-top: 10px;
+}
+
+
+.aftereggcenter {
+ position: relative;
+    bottom: 20px;
+  justify-content: center;
+  max-width: 1900px;
+  text-align: center;
+background-color: #60695D;
+  height: 150px;
+  
+}
+.aftereggcenter  h1{
+color: white;
+font-size: 35px;
+padding-top: 40px;
+
+}
+
+.lastpic {
+  display: flex;
+  bottom: 20px;
+  position: relative;
+
+}
+.lastpic h1 {
+  font-size: 55px;
+  width: 430px;
+}
+
+.lastpic p {
+  padding-top: 30px;
+  font-size: 19px;
+  width: 430px;
+}
+.lastpic .text {
+  display: flex;
+  position: relative;
+  width: 460px;
+  height: 250px;
+ text-align: left;
+flex-direction: column;
+margin: 0 auto;
+padding-top: 90px;
+
+ 
+}
+.lastpic .rightside {
+  flex:1;
+  width:950px;
+  height: 650px;
+ 
+}
+.lastpic .leftside {
+  flex:1;
+  width:950px;
+  height: 650px;
+}
+
+.lastpic  img{
+object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+
+ 
+.ending1 {
+  height: auto;
+  background-color: #404D3C;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  position: relative;
+  bottom: 16px;
+  padding-top: 50px;
+}
+
+.endofend {
+height: 50px;
+background-color: #FBF2E8;
+max-width: 1900px;
+position: relative;
+bottom: 20px;
+text-align: center;
+}
+.ending1 a {
+  text-decoration: none;
+  color: white;
+
+}
+
+
+.endofend {
+  padding-top: 12px;
+}
+
+.ending1 .first {
+  width: 250px;
+  height: 300px;
+  text-align: left;
+}
+.ending1 .second {
+  width: 250px;
+  height: 300px;
+  text-align: left;
+}
+.second p {
+  width: 180px;
+  padding-bottom: 15px;
+ 
+}
+.ending1 .news , .talk {
+  font-size: 25px;
+}
+.third {
+width: 250px;
+height: 300PX;
+text-align: left;
+}
+.third .pads{
+padding-top: 10px;
+padding-bottom: 10px;}
+.first .news {
+padding-bottom: 31px;
+}
+.first .joinbtn {
+display: flex;
+align-items: center;
+
+
+}
+.joinbtn button {
+height:39px;
+background-color: #404D3C;
+color: white;
+height: 40px;
+padding: 0 20px;
+border: 1px solid white;
+margin-top:10px;
+}
+.first input {
+width: 250px;
+background-color: #404D3C;
+height: 40px;
+border: 1px solid white;
+}
+
+
+.container-fluid button {
+  display: none;
+}
+
+.homepos {
+  position: relative;
+  bottom: 6px;
+}
+
+.diss a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width:1001px) {
+.everydamnday {
+  height:200px ;
+  display: flex;
+overflow: hidden;
+
+}
+
+.section .omenu {
+overflow: hidden;
+}
+
+
+.ending1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+.ending1 .first {
+margin: 0 auto;
+}
+.ending1 .second {
+margin: 0 auto;
+}
+.ending1 .third {
+margin: 0 auto;
+}
+
+}
+
+
+  @media screen and (max-width:924px) {
+    ul .diss {
+      display: none;
+    }
+    .diss li {
+      display: none;
+    }
+    .container-fluid button {
+      display: block;
+    }
+  }
+
+@media screen and (max-width:962px) {
+  .split {
+    display: flex;
+    flex-direction: column;
+    height: 850px;
+   
+  
+  }
+.split .left {
+  width: 100%;
+  object-fit: cover;
+}
+.split .rght {
+  width: 100%;
+  object-fit: cover;
+}
+
+
+}
+
+
+@media screen and (max-width:815px) {
+
+  ul .diss {
+    display: none;
+  }
+  .diss li {
+    display: none;
+  }
+  .container-fluid button {
+    display: block;
+  }
+}
+@media screen and (max-width:570px) {
+
+.center h1 {
+  font-size: 45px;
+ word-wrap: break-word;
+ }
+ .center p {
+
+  font-size: 15px;
+ }
+
+.split .right h1 {
+  font-size: 25px;
+  margin-inline:30px;
+}
+.split .right p {
+ max-width: 370px;
+ margin-inline:30px;
+}
+.left img {
+  width: 100%;
+height:100px;
+}
+.split .text {
+  max-width: 6460px;
+
+
+}
+.split img {
+  height: 250px;
+}
+
+}
